@@ -2,17 +2,17 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Celine Iliana Cabás
     - name: Date of Birth
-      value: 14th March 1879
+      value: 13th May 1998
     - name: Languages
-      value: English, German
+      value: Spanish, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
+    - title: Bachelor degree
+      institution: Universidad Nacional del Nordeste, Chaco, Argentina
       year: 1905
       description:
         - Description 1.

@@ -1,16 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Celine Cabás",
+    "label": "Data Scientist | Economist",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "cabas.celine@gmail.com",
     "phone": "(912) 123-4567",
     "url": "https://alshedivat.github.io/al-folio/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
+      "address": "",
       "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Resistencia",
       "countryCode": "US",
       "region": "California"
     },
@@ -47,14 +47,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
+      "institution": "Universidad Nacional del Nordeste",
+      "location": "Chaco, Argentina",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
+      "area": "Economics",
+      "studyType": "Bachelor Degree",
       "startDate": "1905-01-01",
       "endDate": "1905-01-01",
-      "score": "10",
+      "score": "8.56",
       "courses": ["Theory of Relativity"]
     }
   ],
@@ -151,7 +151,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker",
       "icon": ""
     },

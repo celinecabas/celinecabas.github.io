@@ -1,39 +1,30 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Clustering
+description: Review of methods and case study.
+img: assets/img/Clustering_intro.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<a href="https://celinecabas.quarto.pub/clustering/" class="btn btn-info" role="button" aria-pressed="true">Link to notebook</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The purpose of this project was to **classify** the neighborhoods of the city of Córdoba according to different variables that represent socioeconomic characteristics. Given the diverse number of variables to be used, this work is framed in a case of **multivariate analysis**. It was carried out in the context of the course **“Data Analysis Project”** of the Master's Degree in Applied Statistics of the Universidad Nacional de Córdoba.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Clustering1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Clustering3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    On the left, average proportion of heads of household according to educational level by neighborhood group. Right, average proportion of households with a given number of inhabitants by neighborhood group in the city of Córdoba, Argentina.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

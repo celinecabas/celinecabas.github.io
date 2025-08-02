@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -419,16 +419,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-data-scientist-data-analyst-at-ecom-chaco-s-a",
+          title: 'Data Scientist | Data Analyst at ECOM Chaco S.A',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-professor-of-undergraduate-degree-in-data-science-at-universidad-nacional-del-nordeste",
+          title: 'Professor of Undergraduate Degree in Data Science at Universidad Nacional del Nordeste',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-statistical-consultant-at-dirección-provincial-de-información-estadística-y-territorial-de-chaco",
+          title: 'Statistical Consultant at Dirección Provincial de Información Estadística y Territorial de Chaco',
+          description: "",
+          section: "News",},{id: "news-assistant-professor-of-econometrics-at-universidad-nacional-del-nordeste",
+          title: 'Assistant Professor of Econometrics at Universidad Nacional del Nordeste',
+          description: "",
+          section: "News",},{id: "news-data-scientist-senior-bi-analyst-at-sudata",
+          title: 'Data Scientist | Senior BI Analyst at SUDATA',
           description: "",
           section: "News",},{id: "projects-clustering",
           title: 'Clustering',

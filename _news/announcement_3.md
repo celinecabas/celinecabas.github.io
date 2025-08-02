@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-9-01 # Poné una fecha válida oculta para que Jekyll funcione
+custom_date: "Nov 2023 - Jun 2025"
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Statistical Consultant at Dirección Provincial de Información Estadística y Territorial de Chaco

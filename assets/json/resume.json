@@ -128,9 +128,26 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
+      "title": "Postgraduate Research Fellow",
+      "startDate": "2024-04-01",
+      "endDate": "Present",
+      "awarder": "Universidad Nacional del Nordeste (UNNE)",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Undergraduate Research Fellow",
+      "startDate": "2022-04-01",
+      "endDate": "2023-04-01",
+      "awarder": "Universidad Nacional del Nordeste (UNNE)",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    },
+    {
+      "title": "Postgraduate Research Fellow",
+      "startDate": "2024-04-01",
+      "endDate": "Present",
+      "awarder": "Universidad Nacional del Nordeste (UNNE)",
       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }

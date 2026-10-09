@@ -458,6 +458,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-aitenea",
+          title: 'AiTenea',
+          description: "Automated real estate valuation with geospatial machine learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/aitenea/";
             },},{
         id: 'social-email',
         title: 'email',

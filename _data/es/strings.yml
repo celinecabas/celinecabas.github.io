@@ -1,0 +1,21 @@
+# Textos de la interfaz en español (accesibles como site.data.strings).
+# `nav` traduce el `title` de cada página al texto que se muestra en el menú.
+# Los títulos que no estén acá se muestran tal cual.
+
+nav:
+  about: sobre mí
+  blog: blog
+  bookshelf: biblioteca
+  cv: cv
+  people: personas
+  projects: proyectos
+  publications: publicaciones
+  repositories: repositorios
+  submenus: submenús
+  teaching: docencia
+news: novedades
+latest_posts: últimas entradas
+selected_publications: publicaciones destacadas
+contact_note: Contactame
+switch_language_label: EN
+switch_language_title: Ver en inglés

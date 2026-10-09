@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+lang: en
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:

@@ -15,7 +15,7 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+lang: es # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://celinecabas.github.io # the base hostname & protocol for your site
@@ -195,6 +195,20 @@ keep_files:
   - CNAME
   - .nojekyll
 
+# -----------------------------------------------------------------------------
+# Languages (jekyll-polyglot)
+# -----------------------------------------------------------------------------
+
+# Spanish is served at the root (/), English under /en/.
+# Pages without a `lang` in their front matter are shown in every language.
+# To translate a page, create a copy with the same permalink and `lang: en`
+# (convention: about.md -> about.en.md). UI strings live in _data/strings.yml.
+languages: ["es", "en"]
+default_lang: "es"
+lang_vars: ["lang"] # keeps site.lang in sync with the language being built
+exclude_from_localization: ["assets", "robots.txt"]
+parallel_localization: false # forking is not supported on Windows
+
 # Plug-ins
 plugins:
   - jekyll-archives-v2
@@ -206,6 +220,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
+  - jekyll-polyglot
   - jekyll-regex-replace
   - jekyll/scholar
   - jekyll-sitemap

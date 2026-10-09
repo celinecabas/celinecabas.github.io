@@ -1,0 +1,21 @@
+# English interface texts (available as site.data.strings).
+# `nav` maps each page `title` to the label shown in the navigation bar.
+# Titles not listed here are shown as-is.
+
+nav:
+  about: about
+  blog: blog
+  bookshelf: bookshelf
+  cv: cv
+  people: people
+  projects: projects
+  publications: publications
+  repositories: repositories
+  submenus: submenus
+  teaching: teaching
+news: news
+latest_posts: latest posts
+selected_publications: selected publications
+contact_note: Contact me
+switch_language_label: ES
+switch_language_title: Ver en español

@@ -6,7 +6,7 @@ img: assets/img/projects/clustering/mapa_barrios_tarjeta.png
 permalink: /projects/clustering/
 lang: en
 category: work
-importance: 2
+importance: 4
 related_publications: false
 tabs: true
 ---

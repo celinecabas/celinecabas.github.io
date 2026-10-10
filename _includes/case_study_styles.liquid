@@ -1,23 +1,27 @@
-<!-- Styles for the AiTenea case study (_projects/aitenea*.md). Theme variables keep light/dark mode working. -->
+<!-- Shared styles for the case-study project pages (AiTenea, Clustering). Theme variables keep light/dark mode working. -->
 <style>
   :root {
-    --ait-si: #1f9e89;
-    --ait-vl: #e07a2e;
-    --ait-caba: #5b6fd6;
+    --cs-si: #1f9e89;
+    --cs-vl: #e07a2e;
+    --cs-caba: #5b6fd6;
+    --cs-g1: #1f9e89;
+    --cs-g2: #5b6fd6;
+    --cs-g3: #e07a2e;
+    --cs-g4: #b5489a;
   }
   /* Numbered section titles with a divider */
   .post article {
-    counter-reset: ait-section;
+    counter-reset: cs-section;
   }
   .post article h2 {
     margin-top: 3rem;
     margin-bottom: 1rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--global-divider-color);
-    counter-increment: ait-section;
+    counter-increment: cs-section;
   }
   .post article h2::before {
-    content: counter(ait-section, decimal-leading-zero);
+    content: counter(cs-section, decimal-leading-zero);
     display: block;
     margin-bottom: 0.3rem;
     font-size: 0.8rem;
@@ -30,142 +34,142 @@
     font-size: 1.15rem;
     font-weight: 600;
   }
-  .ait-hero {
+  .cs-hero {
     border: 1px solid var(--global-divider-color);
     border-radius: 12px;
     padding: 1.5rem;
     margin-bottom: 2rem;
     background: var(--global-card-bg-color);
   }
-  .ait-brand {
+  .cs-brand {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 0.75rem 1rem;
     margin-bottom: 1rem;
   }
-  .ait-logo-dark {
+  .cs-logo-dark {
     display: inline-flex;
     align-items: center;
     padding: 0.45rem 0.9rem;
     border-radius: 8px;
     background: #1e2235;
   }
-  .ait-logo-dark img {
+  .cs-logo-dark img {
     height: 26px;
   }
-  .ait-by {
+  .cs-by {
     font-size: 0.85rem;
     color: var(--global-text-color-light);
   }
-  .ait-friwi {
+  .cs-friwi {
     height: 30px;
   }
-  .ait-lead {
+  .cs-lead {
     font-size: 1.1rem;
     margin-bottom: 1.25rem;
   }
-  .ait-facts {
+  .cs-facts {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--global-divider-color);
   }
-  .ait-fact span {
+  .cs-fact span {
     display: block;
     font-size: 0.72rem;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--global-text-color-light);
   }
-  .ait-fact strong {
+  .cs-fact strong {
     font-weight: 500;
   }
   @media (max-width: 767px) {
-    .ait-map figure {
+    .cs-map figure {
       max-width: 320px;
       margin: 0 auto;
     }
   }
-  .ait-muni {
+  .cs-muni {
     display: flex;
     align-items: flex-start;
     gap: 0.75rem;
     padding: 0.75rem 0;
     border-bottom: 1px solid var(--global-divider-color);
   }
-  .ait-swatch {
+  .cs-swatch {
     flex: none;
     width: 14px;
     height: 14px;
     margin-top: 0.35rem;
     border-radius: 3px;
   }
-  .ait-count {
+  .cs-count {
     margin-left: auto;
     white-space: nowrap;
     font-variant-numeric: tabular-nums;
     color: var(--global-text-color-light);
   }
-  .ait-total {
+  .cs-total {
     margin-top: 1rem;
   }
-  .ait-features {
+  .cs-features {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
     gap: 0.75rem;
     margin: 1rem 0 1.5rem;
   }
-  .ait-feature {
+  .cs-feature {
     padding: 1rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 10px;
   }
-  .ait-feature i {
+  .cs-feature i {
     display: block;
     margin-bottom: 0.5rem;
     font-size: 1.3rem;
     color: var(--global-theme-color);
   }
-  .ait-feature p {
+  .cs-feature p {
     margin: 0.25rem 0 0;
     font-size: 0.9rem;
     color: var(--global-text-color-light);
   }
-  .ait-metric {
+  .cs-metric {
     height: 100%;
     padding: 1rem 0.75rem;
     border: 1px solid var(--global-divider-color);
     border-top: 3px solid var(--global-theme-color);
     border-radius: 10px;
   }
-  .ait-metric-value {
+  .cs-metric-value {
     font-size: 1.9rem;
     font-weight: 600;
     line-height: 1.2;
     color: var(--global-theme-color);
   }
-  .ait-metric-label {
+  .cs-metric-label {
     margin-top: 0.35rem;
     font-size: 0.85rem;
     color: var(--global-text-color-light);
   }
-  .ait-steps {
+  .cs-steps {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.75rem;
     margin: 1rem 0 1.5rem;
     padding: 0;
     list-style: none;
-    counter-reset: ait-step;
+    counter-reset: cs-step;
   }
   @media (min-width: 768px) {
-    .ait-steps {
+    .cs-steps {
       grid-template-columns: repeat(4, 1fr);
     }
   }
-  .ait-steps li {
+  .cs-steps li {
     position: relative;
     display: flex;
     align-items: center;
@@ -175,10 +179,10 @@
     border-radius: 10px;
     font-size: 0.9rem;
     line-height: 1.3;
-    counter-increment: ait-step;
+    counter-increment: cs-step;
   }
-  .ait-steps li::before {
-    content: counter(ait-step);
+  .cs-steps li::before {
+    content: counter(cs-step);
     position: absolute;
     left: 0.85rem;
     display: flex;
@@ -192,16 +196,111 @@
     color: var(--global-hover-text-color);
     background: var(--global-theme-color);
   }
-  .ait-steps li:last-child {
+  .cs-steps li:last-child {
     border-color: var(--global-theme-color);
     font-weight: 500;
   }
-  .ait-pills span {
+  .cs-pills span {
     display: inline-block;
     margin: 0 0.35rem 0.5rem 0;
     padding: 0.2rem 0.75rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 999px;
     font-size: 0.85rem;
+  }
+  .cs-badge {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--global-theme-color);
+  }
+  /* Cluster profiles: one card per group, colored by --cs-gN */
+  .cs-groups {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    margin: 1rem 0 1.5rem;
+  }
+  @media (min-width: 576px) {
+    .cs-groups {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .cs-group {
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-top: 4px solid var(--cs-group-color);
+    border-radius: 10px;
+  }
+  .cs-group-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+  }
+  .cs-group-head span {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--cs-group-color);
+  }
+  .cs-group-head small {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    color: var(--global-text-color-light);
+  }
+  .cs-group strong {
+    display: block;
+    margin-bottom: 0.4rem;
+    line-height: 1.3;
+  }
+  .cs-group p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+  .cs-table-wrap {
+    overflow-x: auto;
+    margin: 1rem 0 1.5rem;
+  }
+  .cs-table {
+    width: 100%;
+    min-width: 520px;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .cs-table th,
+  .cs-table td {
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    text-align: right;
+  }
+  .cs-table th:first-child,
+  .cs-table td:first-child {
+    text-align: left;
+  }
+  .cs-table thead th {
+    font-size: 0.75rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+  .cs-table thead th span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 0.3rem;
+    border-radius: 2px;
+    background: var(--cs-group-color);
+  }
+  .cs-table td.cs-max {
+    font-weight: 600;
+    color: var(--global-theme-color);
   }
 </style>

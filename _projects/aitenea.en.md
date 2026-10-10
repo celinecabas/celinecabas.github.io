@@ -10,22 +10,22 @@ importance: 1
 related_publications: false
 ---
 
-{% include aitenea_styles.liquid %}
+{% include case_study_styles.liquid %}
 
-<div class="ait-hero">
-  <div class="ait-brand">
-    <span class="ait-logo-dark"><img src="{{ '/assets/img/projects/aitenea/logo_aitenea.png' | relative_url }}" alt="AiTenea"></span>
-    <span class="ait-by">platform built by</span>
-    <a href="https://www.friwi.co/casos/aitenea" target="_blank" rel="noopener"><img class="ait-friwi" src="{{ '/assets/img/projects/aitenea/logo_friwi.png' | relative_url }}" alt="FriWi"></a>
+<div class="cs-hero">
+  <div class="cs-brand">
+    <span class="cs-logo-dark"><img src="{{ '/assets/img/projects/aitenea/logo_aitenea.png' | relative_url }}" alt="AiTenea"></span>
+    <span class="cs-by">platform built by</span>
+    <a href="https://www.friwi.co/casos/aitenea" target="_blank" rel="noopener"><img class="cs-friwi" src="{{ '/assets/img/projects/aitenea/logo_friwi.png' | relative_url }}" alt="FriWi"></a>
   </div>
-  <p class="ait-lead">
+  <p class="cs-lead">
     A predictive analytics platform for real estate: users pick a land parcel on an interactive map and instantly get an estimate of its value. The goal is to take property appraisals <strong>from one month to real time</strong>.
   </p>
-  <div class="ait-facts">
-    <div class="ait-fact"><span>Role</span><strong>Data Scientist, valuation model</strong></div>
-    <div class="ait-fact"><span>Year</span><strong>2025</strong></div>
-    <div class="ait-fact"><span>Areas</span><strong>San Isidro, Vicente López and Buenos Aires City</strong></div>
-    <div class="ait-fact"><span>Stack</span><strong>Python · geospatial ML</strong></div>
+  <div class="cs-facts">
+    <div class="cs-fact"><span>Role</span><strong>Data Scientist, valuation model</strong></div>
+    <div class="cs-fact"><span>Year</span><strong>2025</strong></div>
+    <div class="cs-fact"><span>Areas</span><strong>San Isidro, Vicente López and Buenos Aires City</strong></div>
+    <div class="cs-fact"><span>Stack</span><strong>Python · geospatial ML</strong></div>
   </div>
 </div>
 
@@ -44,26 +44,26 @@ I was responsible for the **valuation engine**: the model that estimates the pri
 The project started in two municipalities in the northern Greater Buenos Aires area and was later extended to Buenos Aires City. Each area has its own configuration and models by property type.
 
 <div class="row align-items-center">
-  <div class="col-md-5 mb-3 ait-map">
+  <div class="col-md-5 mb-3 cs-map">
     {% include figure.liquid path="assets/img/projects/aitenea/mapa_cobertura.png" class="img-fluid" alt="Map of the parcels covered in San Isidro, Vicente López and Buenos Aires City" %}
   </div>
   <div class="col-md-7">
-    <div class="ait-muni">
-      <span class="ait-swatch" style="background: var(--ait-si)"></span>
+    <div class="cs-muni">
+      <span class="cs-swatch" style="background: var(--cs-si)"></span>
       <div><strong>San Isidro</strong><br><small>Houses, land lots and apartments</small></div>
-      <span class="ait-count">~69,000 parcels</span>
+      <span class="cs-count">~69,000 parcels</span>
     </div>
-    <div class="ait-muni">
-      <span class="ait-swatch" style="background: var(--ait-vl)"></span>
+    <div class="cs-muni">
+      <span class="cs-swatch" style="background: var(--cs-vl)"></span>
       <div><strong>Vicente López</strong><br><small>Houses, land lots and apartments</small></div>
-      <span class="ait-count">~64,000 parcels</span>
+      <span class="cs-count">~64,000 parcels</span>
     </div>
-    <div class="ait-muni">
-      <span class="ait-swatch" style="background: var(--ait-caba)"></span>
+    <div class="cs-muni">
+      <span class="cs-swatch" style="background: var(--cs-caba)"></span>
       <div><strong>Buenos Aires City</strong><br><small>Apartments</small></div>
-      <span class="ait-count">~318,000 parcels</span>
+      <span class="cs-count">~318,000 parcels</span>
     </div>
-    <p class="ait-total">More than <strong>450,000 parcels</strong> with an estimated valuation.</p>
+    <p class="cs-total">More than <strong>450,000 parcels</strong> with an estimated valuation.</p>
   </div>
 </div>
 
@@ -81,12 +81,12 @@ The model is trained on listings from real estate portals. Since this data is en
 
 Each listing is enriched with public geographic layers through spatial joins:
 
-<div class="ait-features">
-  <div class="ait-feature"><i class="fa-solid fa-house"></i><strong>Property</strong><p>Surface areas, age, rooms and amenities.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-map-location-dot"></i><strong>Zoning</strong><p>Land-use zoning, gated communities and private neighborhoods.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-route"></i><strong>Accessibility</strong><p>Distance to avenues, the river, schools and public transport.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-people-group"></i><strong>2022 Census</strong><p>Socioeconomic indicators by census tract.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-circle-nodes"></i><strong>Neighborhood</strong><p>Spatial lags: price and size of nearby properties.</p></div>
+<div class="cs-features">
+  <div class="cs-feature"><i class="fa-solid fa-house"></i><strong>Property</strong><p>Surface areas, age, rooms and amenities.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-map-location-dot"></i><strong>Zoning</strong><p>Land-use zoning, gated communities and private neighborhoods.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-route"></i><strong>Accessibility</strong><p>Distance to avenues, the river, schools and public transport.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-people-group"></i><strong>2022 Census</strong><p>Socioeconomic indicators by census tract.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-circle-nodes"></i><strong>Neighborhood</strong><p>Spatial lags: price and size of nearby properties.</p></div>
 </div>
 
 **Spatial lags** summarize what happens around each property using a distance-based weights matrix, and capture the "neighborhood effect" that the other features cannot explain. To avoid data leakage, they are computed using training data only.
@@ -114,10 +114,10 @@ Performance is measured with **5-fold cross-validation**, always on data the mod
 Houses and land lots model for San Isidro and Vicente López:
 
 <div class="row text-center mt-3">
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">~5,300</div><div class="ait-metric-label">training listings</div></div></div>
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">0.77</div><div class="ait-metric-label">validation R²</div></div></div>
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">70%</div><div class="ait-metric-label">of out-of-sample predictions within ±USD 250/m²</div></div></div>
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">92%</div><div class="ait-metric-label">of observed prices inside the prediction interval</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">~5,300</div><div class="cs-metric-label">training listings</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">0.77</div><div class="cs-metric-label">validation R²</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">70%</div><div class="cs-metric-label">of out-of-sample predictions within ±USD 250/m²</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">92%</div><div class="cs-metric-label">of observed prices inside the prediction interval</div></div></div>
 </div>
 
 For apartments in Buenos Aires City I trained an XGBoost model on more than 18,000 listings. It is a much more heterogeneous market, where spatial lags and neighborhood features proved key to capturing price differences across areas.
@@ -135,7 +135,7 @@ The unit of prediction is the **parcel**: the pipeline estimates a value, with i
 
 Once the models were validated, I restructured them into modular scripts that process each municipality and property type automatically:
 
-<ol class="ait-steps">
+<ol class="cs-steps">
   <li>Real estate portal listings</li>
   <li>Cleaning and consistency checks</li>
   <li>Joins with spatial layers</li>
@@ -160,7 +160,7 @@ Most parcels have no listing. To value them, the pipeline builds a **typical pro
 
 ## Tools
 
-<div class="ait-pills">
+<div class="cs-pills">
   <span>Python</span><span>pandas</span><span>GeoPandas</span><span>scikit-learn</span><span>XGBoost</span><span>LightGBM</span><span>Optuna</span><span>libpysal</span><span>PyKrige</span><span>forestci</span><span>Leaflet</span><span>QGIS</span><span>R</span><span>Git</span>
 </div>
 

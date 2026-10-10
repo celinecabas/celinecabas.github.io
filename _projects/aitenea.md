@@ -10,22 +10,22 @@ importance: 1
 related_publications: false
 ---
 
-{% include aitenea_styles.liquid %}
+{% include case_study_styles.liquid %}
 
-<div class="ait-hero">
-  <div class="ait-brand">
-    <span class="ait-logo-dark"><img src="{{ '/assets/img/projects/aitenea/logo_aitenea.png' | relative_url }}" alt="AiTenea"></span>
-    <span class="ait-by">plataforma desarrollada por</span>
-    <a href="https://www.friwi.co/casos/aitenea" target="_blank" rel="noopener"><img class="ait-friwi" src="{{ '/assets/img/projects/aitenea/logo_friwi.png' | relative_url }}" alt="FriWi"></a>
+<div class="cs-hero">
+  <div class="cs-brand">
+    <span class="cs-logo-dark"><img src="{{ '/assets/img/projects/aitenea/logo_aitenea.png' | relative_url }}" alt="AiTenea"></span>
+    <span class="cs-by">plataforma desarrollada por</span>
+    <a href="https://www.friwi.co/casos/aitenea" target="_blank" rel="noopener"><img class="cs-friwi" src="{{ '/assets/img/projects/aitenea/logo_friwi.png' | relative_url }}" alt="FriWi"></a>
   </div>
-  <p class="ait-lead">
+  <p class="cs-lead">
     Plataforma de análisis predictivo para el sector inmobiliario: el usuario elige una parcela en un mapa interactivo y obtiene al instante una estimación de su valor. El objetivo es llevar las tasaciones <strong>de un mes a tiempo real</strong>.
   </p>
-  <div class="ait-facts">
-    <div class="ait-fact"><span>Rol</span><strong>Data Scientist del modelo de valuación</strong></div>
-    <div class="ait-fact"><span>Año</span><strong>2025</strong></div>
-    <div class="ait-fact"><span>Zonas</span><strong>San Isidro, Vicente López y CABA</strong></div>
-    <div class="ait-fact"><span>Stack</span><strong>Python · ML geoespacial</strong></div>
+  <div class="cs-facts">
+    <div class="cs-fact"><span>Rol</span><strong>Data Scientist del modelo de valuación</strong></div>
+    <div class="cs-fact"><span>Año</span><strong>2025</strong></div>
+    <div class="cs-fact"><span>Zonas</span><strong>San Isidro, Vicente López y CABA</strong></div>
+    <div class="cs-fact"><span>Stack</span><strong>Python · ML geoespacial</strong></div>
   </div>
 </div>
 
@@ -44,26 +44,26 @@ Estuve a cargo del **motor de valuación**: el modelo que estima el precio por m
 El proyecto empezó en dos municipios de la zona norte del Gran Buenos Aires y luego se extendió a la Ciudad de Buenos Aires. Cada zona tiene su propia configuración y modelos según el tipo de inmueble.
 
 <div class="row align-items-center">
-  <div class="col-md-5 mb-3 ait-map">
+  <div class="col-md-5 mb-3 cs-map">
     {% include figure.liquid path="assets/img/projects/aitenea/mapa_cobertura.png" class="img-fluid" alt="Mapa de parcelas cubiertas en San Isidro, Vicente López y CABA" %}
   </div>
   <div class="col-md-7">
-    <div class="ait-muni">
-      <span class="ait-swatch" style="background: var(--ait-si)"></span>
+    <div class="cs-muni">
+      <span class="cs-swatch" style="background: var(--cs-si)"></span>
       <div><strong>San Isidro</strong><br><small>Casas, terrenos y departamentos</small></div>
-      <span class="ait-count">~69.000 parcelas</span>
+      <span class="cs-count">~69.000 parcelas</span>
     </div>
-    <div class="ait-muni">
-      <span class="ait-swatch" style="background: var(--ait-vl)"></span>
+    <div class="cs-muni">
+      <span class="cs-swatch" style="background: var(--cs-vl)"></span>
       <div><strong>Vicente López</strong><br><small>Casas, terrenos y departamentos</small></div>
-      <span class="ait-count">~64.000 parcelas</span>
+      <span class="cs-count">~64.000 parcelas</span>
     </div>
-    <div class="ait-muni">
-      <span class="ait-swatch" style="background: var(--ait-caba)"></span>
+    <div class="cs-muni">
+      <span class="cs-swatch" style="background: var(--cs-caba)"></span>
       <div><strong>CABA</strong><br><small>Departamentos</small></div>
-      <span class="ait-count">~318.000 parcelas</span>
+      <span class="cs-count">~318.000 parcelas</span>
     </div>
-    <p class="ait-total">Más de <strong>450.000 parcelas</strong> con valuación estimada.</p>
+    <p class="cs-total">Más de <strong>450.000 parcelas</strong> con valuación estimada.</p>
   </div>
 </div>
 
@@ -81,12 +81,12 @@ El modelo se entrena con avisos publicados en portales inmobiliarios. Como son d
 
 Cada aviso se enriquece con capas geográficas públicas mediante cruces espaciales:
 
-<div class="ait-features">
-  <div class="ait-feature"><i class="fa-solid fa-house"></i><strong>Inmueble</strong><p>Superficies, antigüedad, ambientes y amenities.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-map-location-dot"></i><strong>Normativa</strong><p>Zonificación, barrios cerrados y urbanizaciones.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-route"></i><strong>Accesibilidad</strong><p>Distancia a avenidas, al río, a escuelas y a transporte.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-people-group"></i><strong>Censo 2022</strong><p>Indicadores socioeconómicos por radio censal.</p></div>
-  <div class="ait-feature"><i class="fa-solid fa-circle-nodes"></i><strong>Vecindario</strong><p>Rezagos espaciales: precio y superficie de los inmuebles cercanos.</p></div>
+<div class="cs-features">
+  <div class="cs-feature"><i class="fa-solid fa-house"></i><strong>Inmueble</strong><p>Superficies, antigüedad, ambientes y amenities.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-map-location-dot"></i><strong>Normativa</strong><p>Zonificación, barrios cerrados y urbanizaciones.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-route"></i><strong>Accesibilidad</strong><p>Distancia a avenidas, al río, a escuelas y a transporte.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-people-group"></i><strong>Censo 2022</strong><p>Indicadores socioeconómicos por radio censal.</p></div>
+  <div class="cs-feature"><i class="fa-solid fa-circle-nodes"></i><strong>Vecindario</strong><p>Rezagos espaciales: precio y superficie de los inmuebles cercanos.</p></div>
 </div>
 
 Los **rezagos espaciales** resumen lo que pasa alrededor de cada inmueble a partir de una matriz de pesos por distancia, y capturan el efecto "barrio" que las demás variables no alcanzan a explicar. Para evitar fuga de información, se calculan solo con los datos de entrenamiento.
@@ -114,10 +114,10 @@ El desempeño se mide con **validación cruzada** de 5 particiones, siempre sobr
 Modelo de casas y terrenos en San Isidro y Vicente López:
 
 <div class="row text-center mt-3">
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">~5.300</div><div class="ait-metric-label">avisos para entrenar</div></div></div>
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">0,77</div><div class="ait-metric-label">R² de validación</div></div></div>
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">70 %</div><div class="ait-metric-label">de las predicciones fuera de muestra a menos de ±USD 250/m²</div></div></div>
-  <div class="col-6 col-md-3 mb-3"><div class="ait-metric"><div class="ait-metric-value">92 %</div><div class="ait-metric-label">de los precios observados dentro del intervalo</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">~5.300</div><div class="cs-metric-label">avisos para entrenar</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">0,77</div><div class="cs-metric-label">R² de validación</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">70 %</div><div class="cs-metric-label">de las predicciones fuera de muestra a menos de ±USD 250/m²</div></div></div>
+  <div class="col-6 col-md-3 mb-3"><div class="cs-metric"><div class="cs-metric-value">92 %</div><div class="cs-metric-label">de los precios observados dentro del intervalo</div></div></div>
 </div>
 
 Para departamentos en CABA entrené un modelo XGBoost con más de 18.000 avisos. Es un mercado mucho más heterogéneo, donde los rezagos espaciales y las variables de entorno resultaron clave para capturar las diferencias entre barrios.
@@ -135,7 +135,7 @@ La unidad de predicción es la **parcela**: el pipeline estima un valor, con su 
 
 Una vez validados los modelos, los reorganicé en scripts modulares que procesan cada municipio y tipo de inmueble de forma automática:
 
-<ol class="ait-steps">
+<ol class="cs-steps">
   <li>Avisos de portales inmobiliarios</li>
   <li>Limpieza y controles de consistencia</li>
   <li>Cruces con capas espaciales</li>
@@ -160,7 +160,7 @@ La mayoría de las parcelas no tiene un aviso publicado. Para valuarlas, el pipe
 
 ## Herramientas
 
-<div class="ait-pills">
+<div class="cs-pills">
   <span>Python</span><span>pandas</span><span>GeoPandas</span><span>scikit-learn</span><span>XGBoost</span><span>LightGBM</span><span>Optuna</span><span>libpysal</span><span>PyKrige</span><span>forestci</span><span>Leaflet</span><span>QGIS</span><span>R</span><span>Git</span>
 </div>
 

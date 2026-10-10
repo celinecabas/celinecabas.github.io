@@ -413,12 +413,7 @@ ninja.data = [{
           section: "News",},{id: "news-data-scientist-senior-bi-analyst-at-sudata",
           title: 'Data Scientist | Senior BI Analyst at SUDATA',
           description: "",
-          section: "News",},{id: "projects-clustering",
-          title: 'Clustering',
-          description: "Review of methods and case study.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
+          section: "News",},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
@@ -463,6 +458,11 @@ ninja.data = [{
           description: "Valuación automática de inmuebles con machine learning geoespacial",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aitenea/";
+            },},{id: "projects-clustering-de-barrios",
+          title: 'Clustering de barrios',
+          description: "Clasificación socioeconómica de los barrios de Córdoba con análisis multivariado",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/clustering/";
             },},{
         id: 'social-email',
         title: 'email',

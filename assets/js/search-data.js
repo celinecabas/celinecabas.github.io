@@ -458,11 +458,21 @@ ninja.data = [{
           description: "Valuación automática de inmuebles con machine learning geoespacial",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aitenea/";
+            },},{id: "projects-centronea",
+          title: 'Centronea',
+          description: "Medición del tráfico web de una concesionaria y dashboard de métricas para el cliente",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/centronea/";
             },},{id: "projects-clustering-de-barrios",
           title: 'Clustering de barrios',
           description: "Clasificación socioeconómica de los barrios de Córdoba con análisis multivariado",
           section: "Projects",handler: () => {
               window.location.href = "/projects/clustering/";
+            },},{id: "projects-producto-bruto-geográfico",
+          title: 'Producto Bruto Geográfico',
+          description: "Estimación de las cuentas económicas provinciales de Corrientes y Chaco",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pbg/";
             },},{
         id: 'social-email',
         title: 'email',

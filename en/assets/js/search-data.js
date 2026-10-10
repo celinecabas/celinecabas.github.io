@@ -458,11 +458,21 @@ ninja.data = [{
           description: "Automated real estate valuation with geospatial machine learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aitenea/";
+            },},{id: "projects-centronea",
+          title: 'Centronea',
+          description: "Web traffic measurement for a car dealership and a metrics dashboard for the client",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/centronea/";
             },},{id: "projects-neighborhood-clustering",
           title: 'Neighborhood clustering',
           description: "Socioeconomic classification of Córdoba&#39;s neighborhoods with multivariate analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/clustering/";
+            },},{id: "projects-gross-geographic-product",
+          title: 'Gross Geographic Product',
+          description: "Estimating the provincial economic accounts of Corrientes and Chaco",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/pbg/";
             },},{
         id: 'social-email',
         title: 'email',

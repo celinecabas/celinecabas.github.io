@@ -1,5 +1,9 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign work = data[1] | sort: 'startDate' | reverse %}
+  {% comment %} Current jobs (endDate Present / Actualidad) first, then the rest; each group newest first {% endcomment %}
+  {% assign by_date = data[1] | sort: 'startDate' | reverse %}
+  {% assign current = by_date | where_exp: 'w', "w.endDate == 'Present' or w.endDate == 'Actualidad'" %}
+  {% assign past = by_date | where_exp: 'w', "w.endDate != 'Present' and w.endDate != 'Actualidad'" %}
+  {% assign work = current | concat: past %}
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">

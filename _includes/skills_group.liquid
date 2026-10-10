@@ -4,9 +4,11 @@
   <ul class="skills-list">
     {% for item in include.group.items %}
       {% assign label = item.name | default: item[include.lang] %}
-      <li{% unless item.logo or item.fa %} class="text-only"{% endunless %}>
+      <li{% unless item.logo or item.img or item.fa %} class="text-only"{% endunless %}>
         {% if item.logo %}
           <span class="skills-logo">{% include icons/{{ item.logo }}.svg %}</span>
+        {% elsif item.img %}
+          <span class="skills-logo"><img src="{{ item.img | prepend: '/assets/img/skills/' | relative_url }}" alt="" loading="lazy"></span>
         {% elsif item.fa %}
           <span class="skills-logo"><i class="{{ item.fa }}" aria-hidden="true"></i></span>
         {% endif %}

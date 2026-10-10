@@ -7,4 +7,4 @@ related_posts: false
 permalink: /news/experience_6/
 lang: en
 ---
-**Statistical Consultant** · Instituto Provincial de Estadística y Ciencia de Datos de Corrientes<br><small class="text-muted">Corrientes GGP estimation and technical staff training.</small>
+**Statistical Consultant** <span class="exp-org">Instituto Provincial de Estadística y Ciencia de Datos de Corrientes</span><br><small class="text-muted">Corrientes GGP estimation and technical staff training.</small>

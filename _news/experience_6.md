@@ -7,4 +7,4 @@ related_posts: false
 permalink: /news/experience_6/
 lang: es
 ---
-**Consultora estadística** · Instituto Provincial de Estadística y Ciencia de Datos de Corrientes<br><small class="text-muted">Estimación del PBG de Corrientes y capacitación del equipo técnico.</small>
+**Consultora estadística** <span class="exp-org">Instituto Provincial de Estadística y Ciencia de Datos de Corrientes</span><br><small class="text-muted">Estimación del PBG de Corrientes y capacitación del equipo técnico.</small>

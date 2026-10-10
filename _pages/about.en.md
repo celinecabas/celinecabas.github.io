@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 lang: en
-subtitle: Data Scientist · Economist · Applied Statistics
+subtitle: Data Scientist · Applied Statistics · Economist
 
 profile:
   align: right

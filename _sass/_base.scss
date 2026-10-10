@@ -190,6 +190,69 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
+// Experience list (news) on phones: stack the date above each entry so the text gets the full width
+
+@media (max-width: 575.98px) {
+  .news {
+    table,
+    tbody,
+    tr,
+    th,
+    td {
+      display: block;
+      width: 100% !important; // overrides the inline 20% width of the date column
+    }
+
+    tr {
+      padding: 0.7rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    tr:last-child {
+      border-bottom: none;
+    }
+
+    th {
+      padding: 0 0 0.2rem !important;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--global-theme-color);
+    }
+
+    td {
+      padding: 0 !important;
+      line-height: 1.45;
+    }
+
+    td small {
+      display: block;
+      margin-top: 0.2rem;
+      font-size: 0.85rem;
+    }
+
+    .exp-org {
+      display: block;
+      font-size: 0.92rem;
+    }
+
+    .exp-org::before {
+      content: none;
+    }
+
+    // The organization is already its own block here, so the line break before the summary would leave a gap
+    .exp-org + br {
+      display: none;
+    }
+  }
+}
+
+// Organization of each experience entry: inline after the role, separated by a dot (own line on phones, see above)
+.exp-org::before {
+  content: "· ";
+}
+
 // Section heading on the about page (e.g. "Experience"): title on the left, small link on the right
 
 .section-heading {

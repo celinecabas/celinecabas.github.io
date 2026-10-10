@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Celine Cabás",
-    "label": "Científica de datos | Analista BI | Economista",
+    "label": "Data Scientist · Estadística aplicada · Economista",
     "image": "",
     "email": "cabas.celine@gmail.com",
     "phone": "",
@@ -24,11 +24,22 @@
   },
   "work": [
     {
+      "name": "NTT DATA Europe & Latam",
+      "position": "Data Scientist | Lead Analyst",
+      "url": "https://www.nttdata.com/",
+      "startDate": "2026-02-01",
+      "endDate": "Actualidad",
+      "summary": "Buenos Aires, Argentina · Remoto",
+      "highlights": [
+        "Ciencia de datos y analítica para LATAM Airlines, cliente del proyecto."
+      ]
+    },
+    {
       "name": "FriWi | AiTENEA",
-      "position": "Científica de datos geoespacial",
+      "position": "Geospatial Data Scientist",
       "url": "https://www.aitenea.com.ar/",
       "startDate": "2025-08-01",
-      "endDate": "Actualidad",
+      "endDate": "2025-10-01",
       "summary": "CABA, Buenos Aires, Argentina",
       "highlights": [
         "Científica de datos especializada en modelado predictivo con datos geoespaciales. Desarrollé un sistema automatizado en Python para predecir precios inmobiliarios en San Isidro y Vicente López, que integra variables espaciales obtenidas por web scraping y de fuentes oficiales.",
@@ -37,10 +48,10 @@
     },
     {
       "name": "Sudata",
-      "position": "Científica de datos | Analista BI Senior",
+      "position": "Data Scientist | Senior BI Analyst",
       "url": "https://sudata.co/",
       "startDate": "2024-11-01",
-      "endDate": "Actualidad",
+      "endDate": "2026-02-01",
       "summary": "Resistencia, Chaco, Argentina",
       "highlights": [
         "Desarrollé un modelo predictivo de precios inmobiliarios para Resistencia con datos geoespaciales y técnicas de machine learning, para apoyar las decisiones de valuación de empresas inmobiliarias.",
@@ -85,7 +96,7 @@
     },
     {
       "name": "ECOM Chaco S.A.",
-      "position": "Científica de datos | Analista de datos",
+      "position": "Data Scientist | Data Analyst",
       "url": "https://www.ecom.com.ar/",
       "startDate": "2021-06-01",
       "endDate": "2023-11-01",
@@ -216,10 +227,8 @@
       "keywords": [
         "Análisis multivariado",
         "Series de tiempo",
-        "Desestacionalización y desagregación temporal",
         "Estadística espacial",
-        "Machine learning",
-        "Cuantificación de la incertidumbre"
+        "Machine learning"
       ]
     },
     {
@@ -228,38 +237,7 @@
       "keywords": [
         "Python",
         "R",
-        "SQL",
-        "DAX",
-        "LaTeX"
-      ]
-    },
-    {
-      "name": "Python",
-      "icon": "fa-brands fa-python",
-      "keywords": [
-        "pandas",
-        "NumPy",
-        "scikit-learn",
-        "XGBoost",
-        "LightGBM",
-        "Optuna",
-        "GeoPandas",
-        "PySAL",
-        "Matplotlib",
-        "Plotly"
-      ]
-    },
-    {
-      "name": "R",
-      "icon": "fa-brands fa-r-project",
-      "keywords": [
-        "tidyverse",
-        "data.table",
-        "ggplot2",
-        "seasonal (X-13)",
-        "tempdisagg",
-        "R Markdown",
-        "Quarto"
+        "SQL"
       ]
     },
     {
@@ -268,32 +246,17 @@
       "keywords": [
         "BigQuery",
         "PostgreSQL",
-        "Google Analytics 4",
         "Google Cloud",
-        "Docker",
-        "Terraform",
-        "GitHub Actions"
+        "Git"
       ]
     },
     {
-      "name": "Visualización y BI",
+      "name": "Visualización y reportes",
       "icon": "fa-solid fa-chart-pie",
       "keywords": [
         "Power BI",
-        "Microsoft Fabric",
-        "QGIS"
-      ]
-    },
-    {
-      "name": "Herramientas",
-      "icon": "fa-solid fa-screwdriver-wrench",
-      "keywords": [
-        "Git",
-        "Jupyter",
-        "RStudio",
-        "Google Colab",
-        "DBeaver",
-        "VS Code"
+        "QGIS",
+        "Quarto / R Markdown"
       ]
     }
   ],

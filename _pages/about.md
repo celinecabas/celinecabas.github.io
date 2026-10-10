@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 lang: es
-subtitle: Científica de datos · Economista · Estadística aplicada
+subtitle: Data Scientist · Estadística aplicada · Economista
 
 profile:
   align: right

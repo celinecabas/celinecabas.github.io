@@ -1,8 +1,10 @@
 ---
 layout: page
-title: projects
+title: projects # key for the nav label in _data/*/strings.yml
+display_title: Proyectos
 permalink: /projects/
-description: A look of the projects I had the opportunity to work on.
+lang: es
+description: Una selección de proyectos de estadística, ciencia de datos y analítica en los que trabajé.
 nav: true
 nav_order: 3
 display_categories: [work, fun]
@@ -15,7 +17,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category">{{ site.data.strings.project_categories[category] | default: category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}

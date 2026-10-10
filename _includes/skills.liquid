@@ -64,9 +64,15 @@
     background: #fff;
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
   }
-  .skills-logo svg {
+  .skills-logo svg,
+  .skills-logo img {
     width: 0.95rem;
     height: 0.95rem;
+    object-fit: contain;
+  }
+  .skills-logo img {
+    width: 1.05rem;
+    height: 1.05rem;
   }
   .skills-logo i {
     font-size: 0.78rem;
@@ -75,8 +81,18 @@
   /* Featured group (statistical methods): larger tiles with the theme color */
   .skills-group.featured .skills-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-template-columns: 1fr;
     gap: 0.6rem;
+  }
+  @media (min-width: 480px) {
+    .skills-group.featured .skills-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 992px) {
+    .skills-group.featured .skills-list {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
   .skills-group.featured .skills-list li {
     gap: 0.65rem;

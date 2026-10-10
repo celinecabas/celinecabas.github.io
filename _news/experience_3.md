@@ -7,4 +7,4 @@ related_posts: false
 permalink: /news/experience_3/
 lang: es
 ---
-**Docente de la Diplomatura en Ciencia de Datos** · Facultad de Ciencias Exactas, UNNE<br><small class="text-muted">Notebooks de probabilidad y estadística con Python.</small>
+**Docente de la Diplomatura en Ciencia de Datos** <span class="exp-org">Facultad de Ciencias Exactas, UNNE</span><br><small class="text-muted">Notebooks de probabilidad y estadística con Python.</small>

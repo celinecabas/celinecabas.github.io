@@ -7,4 +7,4 @@ related_posts: false
 permalink: /news/experience_7/
 lang: es
 ---
-**Científica de datos \| Analista de datos** · ECOM Chaco S.A.<br><small class="text-muted">Indicadores socioeconómicos e integración de bases de datos provinciales con SQL.</small>
+**Data Scientist \| Data Analyst** <span class="exp-org">ECOM Chaco S.A.</span><br><small class="text-muted">Indicadores socioeconómicos e integración de bases de datos provinciales con SQL.</small>

@@ -42,3 +42,8 @@ cv_fields:
   phone: Teléfono
   url: Sitio web
   summary: Resumen
+
+# Project category headings on the projects page
+project_categories:
+  work: trabajo
+  fun: otros

@@ -1,18 +1,16 @@
 # Skills shown on the about page (_includes/skills.liquid), shared by both languages.
-# Each item: name (or es/en labels), plus optional `logo` (file in _includes/icons/, Simple Icons, CC0)
-# or `fa` (Font Awesome class) when the tool has no logo.
+# Each item: name (or es/en labels), plus optional `logo` (file in _includes/icons/, Simple Icons, CC0),
+# `img` (official project logo in assets/img/skills/) or `fa` (Font Awesome class) when there is no logo.
 
 - id: statistics
   es: Estadística y modelado
   en: Statistics and modeling
   featured: true
   items:
+    - { fa: fa-solid fa-brain, es: Machine learning, en: Machine learning }
+    - { fa: fa-solid fa-map-location-dot, es: Estadística espacial, en: Spatial statistics }
     - { fa: fa-solid fa-diagram-project, es: Análisis multivariado, en: Multivariate analysis }
     - { fa: fa-solid fa-chart-line, es: Series de tiempo, en: Time series }
-    - { fa: fa-solid fa-map-location-dot, es: Estadística espacial, en: Spatial statistics }
-    - { fa: fa-solid fa-brain, es: Machine learning, en: Machine learning }
-    - { fa: fa-solid fa-arrows-left-right-to-line, es: Cuantificación de la incertidumbre, en: Uncertainty quantification }
-    - { fa: fa-solid fa-calendar-week, es: Desestacionalización y desagregación temporal, en: Seasonal adjustment and temporal disaggregation }
 
 - id: languages
   es: Lenguajes
@@ -33,11 +31,11 @@
     - { name: scikit-learn, logo: scikitlearn }
     - { name: GeoPandas, logo: geopandas }
     - { name: Plotly, logo: plotly }
+    - { name: LightGBM, img: lightgbm.svg }
+    - { name: Optuna, img: optuna.png }
+    - { name: PySAL, img: pysal.png }
+    - { name: Matplotlib, img: matplotlib.png }
     - { name: XGBoost }
-    - { name: LightGBM }
-    - { name: Optuna }
-    - { name: PySAL }
-    - { name: Matplotlib }
 
 - id: r
   es: R
@@ -45,11 +43,11 @@
   items:
     - { name: tidyverse, logo: tidyverse }
     - { name: Quarto, logo: quarto }
-    - { name: data.table }
-    - { name: ggplot2 }
+    - { name: data.table, img: datatable.png }
+    - { name: ggplot2, img: ggplot2.svg }
+    - { name: R Markdown, img: rmarkdown.svg }
     - { name: seasonal (X-13) }
     - { name: tempdisagg }
-    - { name: R Markdown }
 
 - id: data
   es: Datos y nube

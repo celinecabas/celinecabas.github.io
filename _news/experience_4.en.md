@@ -7,4 +7,4 @@ related_posts: false
 permalink: /news/experience_4/
 lang: en
 ---
-**Statistical Consultant** · Dirección Provincial de Información Estadística y Territorial del Chaco<br><small class="text-muted">Regional economic indicators, including the quarterly GGP and the Child Rearing Basket.</small>
+**Statistical Consultant** <span class="exp-org">Dirección Provincial de Información Estadística y Territorial del Chaco</span><br><small class="text-muted">Regional economic indicators, including the quarterly GGP and the Child Rearing Basket.</small>

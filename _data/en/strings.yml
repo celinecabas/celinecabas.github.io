@@ -43,3 +43,8 @@ cv_fields:
   phone: Phone
   url: Url
   summary: Summary
+
+# Project category headings on the projects page
+project_categories:
+  work: work
+  fun: fun

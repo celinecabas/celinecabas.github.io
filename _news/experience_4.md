@@ -7,4 +7,4 @@ related_posts: false
 permalink: /news/experience_4/
 lang: es
 ---
-**Consultora estadística** · Dirección Provincial de Información Estadística y Territorial del Chaco<br><small class="text-muted">Indicadores económicos regionales, como el PBG trimestral y la Canasta de Crianza.</small>
+**Consultora estadística** <span class="exp-org">Dirección Provincial de Información Estadística y Territorial del Chaco</span><br><small class="text-muted">Indicadores económicos regionales, como el PBG trimestral y la Canasta de Crianza.</small>

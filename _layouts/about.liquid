@@ -40,11 +40,12 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
+    <!-- News (used as the experience list), titled like the "Skills" heading above -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">{{ site.data.strings.news }}</a>
-      </h2>
+      <div class="section-heading">
+        <h4>{{ site.data.strings.news }}</h4>
+        <a href="{{ '/cv/' | relative_url }}">{{ site.data.strings.full_cv }} <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
       {% include news.liquid limit=true %}
     {% endif %}
 

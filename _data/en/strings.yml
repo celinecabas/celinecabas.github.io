@@ -13,9 +13,33 @@ nav:
   repositories: repositories
   submenus: submenus
   teaching: teaching
-news: news
+news: Experience
+full_cv: See full CV
 latest_posts: latest posts
 selected_publications: selected publications
 contact_note: Contact me
 switch_language_label: ES
 switch_language_title: Ver en español
+
+# CV (_layouts/cv.liquid and _includes/resume/basics.liquid): section titles and basic-info labels.
+# Defined explicitly so the Spanish values are not used as a fallback.
+cv_sections:
+  basics: Basics
+  work: Work
+  education: Education
+  publications: Publications
+  projects: Projects
+  volunteer: Volunteer
+  awards: Scholarships
+  certificates: Certificates
+  skills: Skills
+  languages: Languages
+  interests: Interests
+  references: References
+cv_fields:
+  name: Name
+  label: Label
+  email: Email
+  phone: Phone
+  url: Url
+  summary: Summary

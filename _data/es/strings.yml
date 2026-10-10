@@ -13,9 +13,32 @@ nav:
   repositories: repositorios
   submenus: submenús
   teaching: docencia
-news: novedades
+news: Experiencia
+full_cv: Ver CV completo
 latest_posts: últimas entradas
 selected_publications: publicaciones destacadas
 contact_note: Contactame
 switch_language_label: EN
 switch_language_title: Ver en inglés
+
+# CV (_layouts/cv.liquid and _includes/resume/basics.liquid): section titles and basic-info labels
+cv_sections:
+  basics: Datos básicos
+  work: Experiencia
+  education: Formación
+  publications: Publicaciones
+  projects: Proyectos
+  volunteer: Voluntariado
+  awards: Becas
+  certificates: Certificados
+  skills: Habilidades
+  languages: Idiomas
+  interests: Intereses
+  references: Referencias
+cv_fields:
+  name: Nombre
+  label: Perfil
+  email: Email
+  phone: Teléfono
+  url: Sitio web
+  summary: Resumen

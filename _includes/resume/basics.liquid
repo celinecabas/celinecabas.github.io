@@ -10,7 +10,8 @@
 
     <tr>
       <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
+        {% assign field_key = content[0] %}
+        <b>{{ site.data.strings.cv_fields[field_key] | default: field_key | capitalize }}</b>
       </td>
       <td class="p-1 pl-2 font-weight-light text">
         {% if content[0] == 'url' %}

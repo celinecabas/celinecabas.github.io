@@ -79,7 +79,11 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for data in site.data.resume %}
+        {% assign resume = site.data.resume %}
+        {% if site.active_lang == 'es' and site.data.resume_es %}
+          {% assign resume = site.data.resume_es %}
+        {% endif %}
+        {% for data in resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
             {% unless site.jsonresume contains data[0] %}
               {% continue %}
@@ -89,7 +93,10 @@ layout: default
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">
-              {% if data[0] == "awards" %}
+              {% assign section_key = data[0] %}
+              {% if site.data.strings.cv_sections[section_key] %}
+                {{ site.data.strings.cv_sections[section_key] }}
+              {% elsif data[0] == "awards" %}
                 Scholarships
               {% else %}
                 {{ data[0] | capitalize }}

@@ -24,6 +24,18 @@
   },
   "work": [
     {
+      "name": "FriWi | AiTENEA",
+      "position": "Geospatial Data Scientist",
+      "url": "https://www.aitenea.com.ar/",
+      "startDate": "2025-08-01",
+      "endDate": "Present",
+      "summary": "CABA, Buenos Aires, Argentina",
+      "highlights": [
+        "Data Scientist specializing in predictive modeling with geospatial data. Developed an automated system in Python for predicting real estate prices in San Isidro and Vicente López, integrating spatial variables obtained through web scraping and official sources.",
+        "Implemented feature engineering pipelines and machine learning model training (Random Forest, XGBoost, LightGBM), achieving estimates at parcel level."
+      ]
+    },
+    {
       "name": "Sudata",
       "position": "Data Scientist | Senior BI Analyst",
       "url": "https://sudata.co/",
@@ -97,8 +109,6 @@
         "Trained technical staff in indicator development, promoting the adoption of reproducible methods across others current projects."
       ]
     }
-
-
   ],
   "education": [
     {
@@ -110,7 +120,9 @@
       "startDate": "2016-02-01",
       "endDate": "2022-09-01",
       "score": "",
-      "courses": ["Courseworks in Statistical Inference and Econometrics."]
+      "courses": [
+        "Courseworks in Statistical Inference and Econometrics."
+      ]
     },
     {
       "institution": "Universidad Nacional de Córdoba (UNC)",
@@ -123,7 +135,8 @@
       "score": "",
       "courses": [
         "Thesis in progress on 'Propensity score adjustment methods with machine learning models'.",
-        "Courseworks in Multivariate Analysis, Time Series and Statistical Consulting."]
+        "Courseworks in Multivariate Analysis, Time Series and Statistical Consulting."
+      ]
     }
   ],
   "awards": [
@@ -198,16 +211,89 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Statistics and modeling",
+      "icon": "fa-solid fa-chart-line",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Multivariate analysis",
+        "Time series",
+        "Seasonal adjustment and temporal disaggregation",
+        "Spatial statistics",
+        "Machine learning",
+        "Uncertainty quantification"
+      ]
+    },
+    {
+      "name": "Languages",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "R",
+        "SQL",
+        "DAX",
+        "LaTeX"
+      ]
+    },
+    {
+      "name": "Python",
+      "icon": "fa-brands fa-python",
+      "keywords": [
+        "pandas",
+        "NumPy",
+        "scikit-learn",
+        "XGBoost",
+        "LightGBM",
+        "Optuna",
+        "GeoPandas",
+        "PySAL",
+        "Matplotlib",
+        "Plotly"
+      ]
+    },
+    {
+      "name": "R",
+      "icon": "fa-brands fa-r-project",
+      "keywords": [
+        "tidyverse",
+        "data.table",
+        "ggplot2",
+        "seasonal (X-13)",
+        "tempdisagg",
+        "R Markdown",
+        "Quarto"
+      ]
+    },
+    {
+      "name": "Data and cloud",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "BigQuery",
+        "PostgreSQL",
+        "Google Analytics 4",
+        "Google Cloud",
+        "Docker",
+        "Terraform",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Visualization and BI",
+      "icon": "fa-solid fa-chart-pie",
+      "keywords": [
+        "Power BI",
+        "Microsoft Fabric",
+        "QGIS"
+      ]
+    },
+    {
+      "name": "Tools",
+      "icon": "fa-solid fa-screwdriver-wrench",
+      "keywords": [
+        "Git",
+        "Jupyter",
+        "RStudio",
+        "Google Colab",
+        "DBeaver",
+        "VS Code"
       ]
     }
   ],

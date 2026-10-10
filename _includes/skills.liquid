@@ -1,0 +1,108 @@
+<!-- Skills grid for the about page. Data in _data/skills.yml; logos in _includes/icons/ (Simple Icons, CC0). -->
+{% assign lang = site.active_lang | default: site.default_lang %}
+<style>
+  .skills {
+    margin: 1rem 0 1rem;
+  }
+  /* Masonry-style columns: each card keeps its own height, so there are no empty gaps */
+  .skills-cols {
+    column-count: 1;
+    column-gap: 0.9rem;
+  }
+  @media (min-width: 768px) {
+    .skills-cols {
+      column-count: 2;
+    }
+  }
+  .skills-group {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.9rem;
+    padding: 1rem 1.1rem 0.8rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    break-inside: avoid;
+  }
+  .skills-group h3 {
+    margin: 0 0 0.75rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .skills-list li {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.28rem 0.75rem 0.28rem 0.32rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    font-size: 0.86rem;
+    line-height: 1.2;
+  }
+  .skills-list li.text-only {
+    padding-left: 0.75rem;
+  }
+  /* Logos sit on a white disc so dark brand colors stay visible in dark mode */
+  .skills-logo {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.55rem;
+    height: 1.55rem;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.06);
+  }
+  .skills-logo svg {
+    width: 0.95rem;
+    height: 0.95rem;
+  }
+  .skills-logo i {
+    font-size: 0.78rem;
+    color: #5f6680;
+  }
+  /* Featured group (statistical methods): larger tiles with the theme color */
+  .skills-group.featured .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 0.6rem;
+  }
+  .skills-group.featured .skills-list li {
+    gap: 0.65rem;
+    padding: 0.6rem 0.75rem;
+    border-radius: 10px;
+  }
+  .skills-group.featured .skills-logo {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 8px;
+    background: none;
+    box-shadow: none;
+  }
+  .skills-group.featured .skills-logo i {
+    font-size: 1.15rem;
+    color: var(--global-theme-color);
+  }
+</style>
+
+<div class="skills">
+  {% for group in site.data.skills %}
+    {% if group.featured %}{% include skills_group.liquid group=group lang=lang %}{% endif %}
+  {% endfor %}
+  <div class="skills-cols">
+    {% for group in site.data.skills %}
+      {% unless group.featured %}{% include skills_group.liquid group=group lang=lang %}{% endunless %}
+    {% endfor %}
+  </div>
+</div>

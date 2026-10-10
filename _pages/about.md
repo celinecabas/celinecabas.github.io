@@ -3,36 +3,33 @@ layout: about
 title: about
 permalink: /
 lang: es
-subtitle: <a href='#'>Afiliaciones</a>. Dirección. Contacto. Lema. Etc.
+subtitle: Científica de datos · Economista · Estadística aplicada
 
 profile:
   align: right
-  image: 
+  image: celine_cabas.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+  limit: # leave blank to include all the news in the `_news` folder (experience entries)
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Científica de datos y economista con amplia experiencia en el diseño y la automatización de indicadores socioeconómicos y en modelado estadístico con Python, R y SQL. Trayectoria comprobada en los sectores público y privado: lideré proyectos basados en GitHub para el desarrollo de indicadores para gobiernos provinciales y construí modelos predictivos para apoyar la toma de decisiones en el sector privado. También tengo experiencia en visualización de datos, diseñando dashboards interactivos en Power BI para fortalecer la inteligencia de negocios y el monitoreo operativo.
+Soy científica de datos y economista, con formación en estadística aplicada. Me especializo en convertir datos dispersos en mediciones confiables y modelos que ayuden a decidir, tanto en el sector público como en el privado.
 
-#### Habilidades técnicas
+En el **sector público** diseñé metodologías y procesos de cálculo para estadísticas oficiales, como la estimación del Producto Bruto Geográfico para los organismos de estadística de Corrientes y Chaco. En el **sector privado** desarrollé modelos de machine learning geoespacial para la valuación automática de inmuebles, y sistemas de medición en la nube que llegan al cliente como tableros simples de consultar. Además, soy docente de Econometría en la Universidad Nacional del Nordeste.
 
-* **Lenguajes:** Python, R, SQL, DAX, LaTeX.
-* **Librerías:** Pandas, NumPy, Scikit‑Learn, Plotly, Matplotlib.
-* **Competencias:** Análisis estadístico, Machine Learning, Series de tiempo, Análisis geoespacial.
-* **Herramientas:** Git, Visual Studio Code, DBeaver, RStudio, QGIS, Power BI, Microsoft Fabric, Jupyter, Google Colab.
+Le doy mucha importancia a la rigurosidad y la reproducibilidad: cada análisis queda documentado, versionado y listo para actualizarse. Podés ver algunos de estos trabajos en [proyectos]({{ '/projects/' | relative_url }}).
+
+#### Habilidades
+
+{% include skills.liquid %}

@@ -1,0 +1,83 @@
+# Skills shown on the about page (_includes/skills.liquid), shared by both languages.
+# Each item: name (or es/en labels), plus optional `logo` (file in _includes/icons/, Simple Icons, CC0)
+# or `fa` (Font Awesome class) when the tool has no logo.
+
+- id: statistics
+  es: Estadística y modelado
+  en: Statistics and modeling
+  featured: true
+  items:
+    - { fa: fa-solid fa-diagram-project, es: Análisis multivariado, en: Multivariate analysis }
+    - { fa: fa-solid fa-chart-line, es: Series de tiempo, en: Time series }
+    - { fa: fa-solid fa-map-location-dot, es: Estadística espacial, en: Spatial statistics }
+    - { fa: fa-solid fa-brain, es: Machine learning, en: Machine learning }
+    - { fa: fa-solid fa-arrows-left-right-to-line, es: Cuantificación de la incertidumbre, en: Uncertainty quantification }
+    - { fa: fa-solid fa-calendar-week, es: Desestacionalización y desagregación temporal, en: Seasonal adjustment and temporal disaggregation }
+
+- id: languages
+  es: Lenguajes
+  en: Languages
+  items:
+    - { name: Python, logo: python }
+    - { name: R, logo: r }
+    - { name: SQL, fa: fa-solid fa-database }
+    - { name: LaTeX, logo: latex }
+    - { name: DAX }
+
+- id: python
+  es: Python
+  en: Python
+  items:
+    - { name: pandas, logo: pandas }
+    - { name: NumPy, logo: numpy }
+    - { name: scikit-learn, logo: scikitlearn }
+    - { name: GeoPandas, logo: geopandas }
+    - { name: Plotly, logo: plotly }
+    - { name: XGBoost }
+    - { name: LightGBM }
+    - { name: Optuna }
+    - { name: PySAL }
+    - { name: Matplotlib }
+
+- id: r
+  es: R
+  en: R
+  items:
+    - { name: tidyverse, logo: tidyverse }
+    - { name: Quarto, logo: quarto }
+    - { name: data.table }
+    - { name: ggplot2 }
+    - { name: seasonal (X-13) }
+    - { name: tempdisagg }
+    - { name: R Markdown }
+
+- id: data
+  es: Datos y nube
+  en: Data and cloud
+  items:
+    - { name: BigQuery, logo: googlebigquery }
+    - { name: PostgreSQL, logo: postgresql }
+    - { name: Google Analytics 4, logo: googleanalytics }
+    - { name: Google Cloud, logo: googlecloud }
+    - { name: Docker, logo: docker }
+    - { name: Terraform, logo: terraform }
+    - { name: GitHub Actions, logo: githubactions }
+
+- id: bi
+  es: Visualización y BI
+  en: Visualization and BI
+  items:
+    - { name: Power BI, fa: fa-solid fa-chart-pie }
+    - { name: Microsoft Fabric, fa: fa-solid fa-layer-group }
+    - { name: QGIS, logo: qgis }
+
+- id: tools
+  es: Herramientas
+  en: Tools
+  items:
+    - { name: Git, logo: git }
+    - { name: Jupyter, logo: jupyter }
+    - { name: RStudio, logo: rstudioide }
+    - { name: Google Colab, logo: googlecolab }
+    - { name: DBeaver, logo: dbeaver }
+    - { name: VS Code, fa: fa-solid fa-code }

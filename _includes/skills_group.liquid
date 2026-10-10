@@ -1,0 +1,17 @@
+<!-- One card of the skills grid (see _includes/skills.liquid). Params: group, lang. -->
+<section class="skills-group{% if include.group.featured %} featured{% endif %}">
+  <h3>{{ include.group[include.lang] }}</h3>
+  <ul class="skills-list">
+    {% for item in include.group.items %}
+      {% assign label = item.name | default: item[include.lang] %}
+      <li{% unless item.logo or item.fa %} class="text-only"{% endunless %}>
+        {% if item.logo %}
+          <span class="skills-logo">{% include icons/{{ item.logo }}.svg %}</span>
+        {% elsif item.fa %}
+          <span class="skills-logo"><i class="{{ item.fa }}" aria-hidden="true"></i></span>
+        {% endif %}
+        {{ label }}
+      </li>
+    {% endfor %}
+  </ul>
+</section>
